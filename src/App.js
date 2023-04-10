@@ -11,6 +11,14 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
   // your config
+  apiKey: "AIzaSyAkSTMb8R6QEzqkpO5-bz55REioqNCfRTU",
+  authDomain: "s2s-project-dfc04.firebaseapp.com",
+  databaseURL: "https://s2s-project-dfc04-default-rtdb.firebaseio.com",
+  projectId: "s2s-project-dfc04",
+  storageBucket: "s2s-project-dfc04.appspot.com",
+  messagingSenderId: "351312550332",
+  appId: "1:351312550332:web:3d6edc81d2f5fcc2b3b3b9",
+  measurementId: "G-YSYLB7C6Q5"
 })
 
 const auth = firebase.auth();
